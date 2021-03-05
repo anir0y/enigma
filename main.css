@@ -1,30 +1,52 @@
 body {
-    background-color: rgb(253, 253, 253);
     font-family: Alegreya Sans, Verdana;
+    background: rgb(77,17,17);
+background: -moz-radial-gradient(circle, rgba(77,17,17,1) 0%, rgba(19,17,48,1) 86%);
+background: -webkit-radial-gradient(circle, rgba(77,17,17,1) 0%, rgba(19,17,48,1) 86%);
+background: radial-gradient(circle, rgba(77,17,17,1) 0%, rgba(19,17,48,1) 86%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d1111",endColorstr="#131130",GradientType=1);
 }
 
 h1 {
     text-align: center;
     font-size: 60px;
+    color: white;
     text-transform: uppercase;
     margin-top: 40px;
     margin-bottom: 10px;
 }
+
 
 footer {
     text-align: center;
     font-family: Alegreya Sans, Verdana;
     width: 100%;
     bottom: 0;
-    font-size: 12px;
+    font-size: 14px;
     position: fixed;
-    bottom: 0px;
+    background: rgb(2,0,36);
+    color: white;
+background: rgb(49,121,245);
+background: radial-gradient(circle, rgba(49,121,245,1) 24%, rgba(93,55,136,1) 59%, rgba(139,107,217,1) 90%);
 }
 
+
 #enigma-output{
-    color: green;
-    background-color: black;
+    background: rgb(255,255,255);
+background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(153,176,246,1) 86%);
+background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(153,176,246,1) 86%);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(153,176,246,1) 86%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#99b0f6",GradientType=1);
 }
+
+#enigma-input{
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(153,176,246,1) 86%);
+  background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(153,176,246,1) 86%);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(153,176,246,1) 86%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#99b0f6",GradientType=1);
+}
+
 
 button {
     font-family: Alegreya Sans, Verdana;
@@ -60,6 +82,7 @@ button {
     width: 100%;
     height: 100%;
     overflow: auto;
+    color: white;
 }
 
 .settings-content {
@@ -74,6 +97,7 @@ button {
 .settings-section h2 {
     padding-right: 10px;
     padding-left: 10px;
+    color: white;
 }
 
 .settings-section input {
@@ -94,4 +118,12 @@ button {
 
 .plugboard-settings {
     width: 100%;
+}
+
+a{
+    color: white;
+    
+}
+h2{
+    color: white;
 }
